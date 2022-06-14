@@ -1,4 +1,13 @@
-object VariablesnValues {
+import VariablesnValues.main
+
+object VariablesnValues  {
+  def main(args: Array[String]): Unit = {
+    /**
+     * public final class VariablesnValues {
+     *   public static void main(java.lang.String[]);
+     * }
+     */
+  }
   /**
    * Scala Variables type
    *
@@ -15,4 +24,18 @@ object VariablesnValues {
    *      a) Scala.Boolean
    *      b) Scala.Unit
    */
+}
+
+class  VariablesnValues {
+  def main(args: Array[String]): Unit = {
+    /**
+     * Class with Main method doesn;t have static main method - can not execute
+     *
+     * public class VariablesnValues {
+     *     public void main(java.lang.String[]);
+     *     public VariablesnValues();
+     *  }
+
+     */
+  }
 }
