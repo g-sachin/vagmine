@@ -1,18 +1,18 @@
 # Scala Functionalities
-https://ciena.percipio.com/search?categories=Course&q=scala
+
 
 ## Overview
 * Scala is pure object-oriented
-* Every function is object
-* is immutable language by nature
-* doesn't have any primitive types like int, long etc
+* Every function is an object
+* is an immutable language by nature
+* doesn't have any primitive types like int, long, etc
 * doesn't have Static method/class/object
-* Function is the first class citizen
+* Function is the first-class citizen
 
 ### Functions vs Method
-* Functions - is a group of statements that execute together to perform a specific task &
+* Functions - a group of statements that execute together to perform a specific task &
 can be created as a complete object
-* Method - is a function that defined as member of specific object
+* Method - is a function that defined as a member of a specific object
 
 ## Scala Data Types
 *  Value Types:
@@ -45,14 +45,14 @@ can be created as a complete object
 * Scala.Nothing
 
 ## Singletons
-* allow creation of singleton object without static keyword
-* provides `object` keyword to create singleton. 
+* allow the creation of singleton objects without the static keyword
+* provides an `object` keyword to create a singleton. 
 
 ## Companion Object
-* Scala has companion object and class, so that they can access each other private members
-* both declared in same file
-* both name must be same
-* companion object provides multiple factory methods to work on class like factory, clone etc.
+* Scala has companion objects and class so that they can access each other private members
+* both declared in the same file
+* both names must be the same
+* companion object provides multiple factory methods to work on classes like factory, clone, etc.
 
 ## Scala Traits
 * 
@@ -63,11 +63,11 @@ can be created as a complete object
 pattern matching is done through case & it can compare any type.
 
 ### Case Classes
-* object are created without `new` keyword.
-* case classes are standard class fit for match expression
-* generate getters, setter, toString, hashcode, equals automatically
+* objects are created without the `new` keyword.
+* case classes are standard classes fit for a match expression
+* generate getters, setters, toString, hashcode, equals automatically
 * generate factory method `apply` & `unapply` used for match expression
-* generate `copy` method for cloning purpose
+* generate a `copy` method for cloning purposes
 * 
 
 ## Failure
