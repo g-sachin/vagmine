@@ -74,6 +74,7 @@ pattern matching is done through case & it can compare any type.
 Scala.Try success/failure
 
 ## Parallel computation
+[Parallel Programming in Scala](src/main/scala/parallel/computation/parallelprogramming.md)
 ## Collections
 ## Concurrency
 
